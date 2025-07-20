@@ -6,7 +6,7 @@ import Alert from './components/Alert';
 import About from './components/About';
   
 import {
-  BrowserRouter as Router,
+  BrowserRouter as Router, 
   Routes,
   Route
 } from "react-router-dom";
@@ -22,7 +22,7 @@ function App() {
     });
     setTimeout(() => {
       setAlert(null);
-    }, 3000)
+    }, 50000)
   };
   
   const toggleMode = () => {
