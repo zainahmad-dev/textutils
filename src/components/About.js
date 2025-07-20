@@ -39,7 +39,7 @@ export default function About() {
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              Accordion Item #1
+              <strong> 🔠 Text Analysis</strong>
             </button>
           </h2>
           <div
@@ -48,14 +48,12 @@ export default function About() {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              <strong>This is the first item's accordion body.</strong> It is
-              shown by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              <code>Instantly analyze</code> your text for <code>word</code> and{" "}
+              <code>character count</code>.<br />
+              <code>Improve readability</code> and track content length.
+              <br />
+              Perfect for <code>writers</code>, <code>students</code>, and{" "}
+              <code>professionals</code>.
             </div>
           </div>
         </div>
@@ -70,7 +68,7 @@ export default function About() {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              Accordion Item #2
+              <strong>✨ Text Conversion</strong>
             </button>
           </h2>
           <div
@@ -79,14 +77,11 @@ export default function About() {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              <strong>This is the second item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              Convert text to <code>UPPERCASE</code>, <code>lowercase</code>, or{" "}
+              <code>Title Case</code>.<br />
+              <code>Remove extra spaces</code> and clean your text effortlessly.
+              <br />
+              Simple tools to <code>format your content</code> with one click.
             </div>
           </div>
         </div>
@@ -101,7 +96,7 @@ export default function About() {
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              Accordion Item #3
+              <strong>🌙 Dark Mode & Responsive Design</strong>
             </button>
           </h2>
           <div
@@ -110,14 +105,14 @@ export default function About() {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              <code>Toggle between light and dark themes</code> for better
+              comfort.
+              <br />
+              <code>Optimized for all screen sizes</code>—desktop, tablet, or
+              mobile.
+              <br />
+              Enjoy a <code>sleek and modern UI</code> that adapts to your
+              style.
             </div>
           </div>
         </div>
