@@ -54,18 +54,20 @@ export default function Testform(props) {
             rows="8"
           ></textarea>
         </div>
-        <button className="btn btn-primary mx-1" onClick={handleupClick}>
-          Convert Into UpperCase
-        </button>
-        <button className="btn btn-primary mx-1" onClick={handleLoClick}>
-          Convert Into LowerCase
-        </button>
-        <button className="btn btn-primary mx-1" onClick={handleclClick}>
-          Clear text
-        </button>
-        <button className="btn btn-primary mx-1" onClick={handleCopy}>
-          Copy text
-        </button>
+        <div className="d-flex flex-wrap mb-3">
+          <button className="btn btn-primary me-2 mb-2" onClick={handleupClick}>
+            Convert Into UpperCase
+          </button>
+          <button className="btn btn-primary me-2 mb-2" onClick={handleLoClick}>
+            Convert Into LowerCase
+          </button>
+          <button className="btn btn-primary me-2 mb-2" onClick={handleclClick}>
+            Clear Text
+          </button>
+          <button className="btn btn-primary me-2 mb-2" onClick={handleCopy}>
+            Copy Text
+          </button>
+        </div>
       </div>
       <div
         className="container my-3"
